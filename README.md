@@ -16,10 +16,18 @@
 - 首次运行支持扫码登录，后续复用登录态
 - 失败自动落盘调试信息（日志、截图、HTML）
 
+## 演示视频
+
+- 本仓库内视频：[`assets/fanqie-publisher-demo-20260220.mp4`](assets/fanqie-publisher-demo-20260220.mp4)
+
+<video src="assets/fanqie-publisher-demo-20260220.mp4" controls muted></video>
+
 ## 目录结构
 
 ```text
 .
+├── assets/
+│   └── fanqie-publisher-demo-20260220.mp4
 ├── SKILL.md
 ├── scripts/
 │   └── publish_fanqie.py
