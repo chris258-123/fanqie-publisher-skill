@@ -2,6 +2,7 @@
 
 一个开源的番茄小说章节发布 Skill：把本地 Markdown 章节自动填入番茄作者后台，并按发布流程自动点击。
 
+
 ## 功能
 
 - 读取单个 `.md` 文件并解析章节标题/正文
@@ -116,7 +117,3 @@ python scripts/publish_fanqie.py \
 - 首次运行需要手动扫码登录番茄作者后台。
 - 请使用作者后台合法账号并遵守平台规则。
 - 建议使用 `newchapter` 入口 URL；脚本会自动规整常见 `publish/<chapter_id>?enter_from=newchapter` 形式，避免误改旧章节。
-
-## 致谢
-
-本 Skill 源于 `nanobot` 项目内的自动化发布能力抽离与开源。
